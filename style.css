@@ -1,0 +1,86 @@
+.body{
+    background-color: #fff;
+    font-family: 'Computer Modern Serif', serif;
+    margin: 0;
+    padding: 20;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.scroll{
+    overflow:scroll;
+    width: 80%;
+    margin: auto;
+}
+.table{
+    border: #1c5f96 2px ;
+    width: 100%;
+    margin: 20px 0;
+    font-size: 20px;
+    height: 1200px;
+    width: 100%;
+    border-collapse: separate;
+    overflow:scroll;
+}
+th, td {
+    border: 1px  #1c5f96; /* 单元格边框 */
+    border-color: #1c5f96;
+    background-color: #c1e0f9;
+
+    padding: 10px; /* 单元格内边距 */
+    text-align: center; /* 文本居中 */
+}
+.top{
+    background-color: #0d8df7;
+    text-emphasis-color: #fff;
+}
+.navbar {
+    background-color: #0d8df7; /* 导航栏背景颜色 */
+    overflow: hidden;
+}
+.navbar a {
+    float: right; /* 浮动链接 */
+    display: block;
+    color: white; /* 文字颜色 */
+    text-align: center;
+    padding: 25px; /* 内边距 */
+    font-size: large;
+    text-decoration: none; /* 去掉下划线 */
+}
+.navbar h2{
+    float: left; /* 浮动链接 */
+    display: block;
+    color: white; /* 文字颜色 */
+    padding-left: 10%;
+}
+/* .navbar a:hover {
+    background-color: #0056b3;
+} */
+.toptitle{
+
+    background-color: #fff;
+    text-align: left;
+    align-self: center;
+}
+.h1{
+    color: #0d8df7;
+    font-size: 50px;
+    font-family: 'Computer Modern Serif', serif;
+}
+.h1{
+    color: #0d8df7;
+    font-size: 50px;
+    font-family: 'Computer Modern Serif', serif;
+}
+.h4{
+    color: #0d8df7;
+    font-size: 20px;
+    font-family: 'Computer Modern Serif', serif;
+}
+td a{
+    color: #0d8df7;
+    font-size: 20px;
+    font-family: 'Computer Modern Serif', serif;
+    text-decoration: none; /* 去掉下划线 */
+}
