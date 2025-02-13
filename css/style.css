@@ -1,7 +1,7 @@
 .body{
     background-color: #fff;
     font-family: 'Computer Modern Serif', serif;
-    margin: 0;
+    margin: auto;
     padding: 20;
 }
 .container{
@@ -34,6 +34,11 @@ th, td {
 .top{
     background-color: #0d8df7;
     text-emphasis-color: #fff;
+}
+.top-index{
+    background-color: #0d8df7;
+    text-emphasis-color: #fff;
+    height: 80px;
 }
 .navbar {
     background-color: #0d8df7; /* 导航栏背景颜色 */
@@ -68,10 +73,13 @@ th, td {
     font-size: 50px;
     font-family: 'Computer Modern Serif', serif;
 }
-.h1{
-    color: #0d8df7;
-    font-size: 50px;
+.h1-index-top{
+    color: #f7f9fb;
+    font-size: 40px;
     font-family: 'Computer Modern Serif', serif;
+    padding-left: 40px;
+    padding-top: 20px;
+    height: 80px;
 }
 .h4{
     color: #0d8df7;
