@@ -11,10 +11,27 @@
 .columns-container {
     display: flex;
     gap: 80px;  /* 列间距 */
-    padding: 40px;
+    padding-left: 20px;
     flex-wrap: wrap; /* 小屏幕自动换行 */
+    height: 900px;
 }
-
+.column-navi {
+    flex: 1; /* 自适应宽度 */
+    max-width: 300px; /* 最大宽度 */
+    height: 100%;
+}
+a {
+    color: rgb(15, 109, 168) !important; /* 文字颜色 */
+    text-align: center;
+    padding: 5px; /* 内边距 */
+    font-size: large;
+    text-decoration: none; /* 去掉下划线 */
+}
+.column{
+    flex: 2;
+    max-width: 400px;
+    height: 100%;
+}
 </style>
 </head>
 <div class="top-index">
@@ -23,10 +40,11 @@
     
     <div class = "latex-body">
         <div class="columns-container">
-
             <!-- 导航列 -->
-            <div class="column">
-                <h2>EEdiy</h2>
+            <div class="column-navi">
+                <img src="img/thunder.jpg" alt="thunder" width=100% height=100% >
+                <h1 class = "h1-index">EEdiy</h1>
+                <hr>
                 <ul>
                     <li>
                         <div><a href="https://iiiiling.github.io/eediy/">主页Home</a></div>
@@ -46,13 +64,14 @@
             </div>
                 <!-- 课程分类 -->
                 <div class="column">
-                    <h2>大二上</h2>
+                    <h2 >大二上</h2>
                     <ul>
                         <li><p><a href = "ac.html">电路电子技术I</a></p></li>
                         <li><p><a href = "peca.html">大物二</a></p></li>
-                        <li><p><a href = "saap.html"></a></p></li>
+                        <li><p><a href = "saap.html">概率论与数理统计</a></p></li>
                         <li><p><a href = "ace.html">电路电子技术实验I</a></p></li>
                     </ul>
+                    <hr>
                     <h2>大二下</h2>
                     <ul>
                         <li><a href = "ac.html">电路电子技术II</a></li>
@@ -63,15 +82,28 @@
                         <li><a href = "ai.html">人工智能</a></li>
                         <li><a href = "ec2.html">电网络分析</a></li>
                         <li><a href = "am.html">计算方法</a></li>
-                        <li><p><a href="https://guahao31.github.io/2024_DD/" target=&ldquo;blank&rdquo;>数逻 | Experiment</a></p>
                     </ul>
-            
+                    <hr>
                     <h2></h2>
                 </div>
 
                 <!-- 常用列 -->
                 <div class="column">
-                    <h2>工具/Tool</h2>
+                    <h2>工具/收藏库</h2>
+                    <ul>
+                        <li><a href = "https://www.latexlive.com/">LaTeX公式编辑器</a></li>
+                        <li><a href = "https://chat.deepseek.com/">Deekseek</a></li>
+                        <li><a href = "https://github.com">Github</a></li>
+                        <li><a href = "https://www.csdiy.wiki">CSdiy</a></li>
+                        <li><a href = "https://www.zhihu.com">知乎</a></li>
+                        <li><a href = "https://liaoxuefeng.com/books/git/introduction/index.html">Git</a></li>
+                        <li><a href = "https://www.wolframalpha.com">WolframAlpha</a></li>
+                        <li><a href = "https://www.overleaf.com">Overleaf</a></li>
+                        <li><a href = "https://courses.d2l.ai/zh-v2/">深度学习</a></li>
+                        <li><a href = "https://shequ.stmicroelectronics.cn/portal.php">stm32</a></li>
+                        <li><a href = "https://hdlbits.01xz.net/wiki/Main_Page">hdl</a></li>
+
+                    </ul>
                 </div>
         </div>
     </div>

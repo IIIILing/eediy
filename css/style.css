@@ -73,6 +73,9 @@ th, td {
     font-size: 50px;
     font-family: 'Computer Modern Serif', serif;
 }
+.h1-index{
+    padding-top: 20px;
+}
 .h1-index-top{
     color: #f7f9fb;
     font-size: 40px;

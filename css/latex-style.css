@@ -189,7 +189,6 @@ body.libertinus {
   min-height: 100vh;
   overflow-x: hidden;
   margin: 0 auto;
-  padding: 2rem 1.25rem;
 
   counter-reset: theorem definition sidenote-counter;
 
