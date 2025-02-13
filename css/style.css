@@ -92,3 +92,9 @@ td a{
     font-family: 'Computer Modern Serif', serif;
     text-decoration: none; /* 去掉下划线 */
 }
+.columns-container {
+    display: flex;
+    gap: 80px;  /* 列间距 */
+    padding: 40px;
+    flex-wrap: wrap; /* 小屏幕自动换行 */
+}
